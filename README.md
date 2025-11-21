@@ -27,6 +27,7 @@ pip install POT
 pip install "numpy<2"
 pip install scipy
 pip install networkx
+pip install pycpd
 ```
 
 ### Foundation Model Requirements
