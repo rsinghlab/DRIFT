@@ -32,3 +32,10 @@ pip install networkx
 ### Foundation Model Requirements
 
 You will require additional libraries dependent on the foundation model you aim to use. Please refer to their code for any additional requirements necessary.
+
+
+### Run Code
+
+To see how to run the code, please check our notebook tutorials.
+
+run_drift.ipynb for running DRIFT to obtain diffused inputs.
