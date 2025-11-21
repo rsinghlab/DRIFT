@@ -1,2 +1,5 @@
-# DRIFT
-Diffusion-based Representation Integration for Foundation models in spatial Transcriptomics
+# DRIFT - Diffusion-based Representation Integration for Foundation models in spatial Transcriptomics
+
+DRIFT is a scalable diffusion framework that denoises expression profiles and integrates the spatial topology of ST data into existing pretrained scRNA-seq and ST foundation models without additional retraining. Foundation models that do not explicitly model spatial information benefit from both denoising and spatial integration, while methods that do so leverage DRIFT's denoised output. DRIFT constructs a spatial adjacency graph among tissue spots and applies a heat-kernel diffusion process that propagates gene-expression signals across local neighborhoods while preserving tissue boundaries. This produces spatially coherent yet biologically meaningful representations that can be directly embedded into pretrained foundation models without retraining, making our approach much more computationally scalable and accessible. 
+
+![STING Framework Overview](https://github.com/rsinghlab/STING/blob/main/DRIFT%20Framework.png?raw=true)
