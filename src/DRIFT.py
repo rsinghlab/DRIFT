@@ -21,9 +21,9 @@ def construct_interaction(adata, n_neighbors=3):
     adata.obsm['graph_neigh'] = interaction
     
     
-def DRIFT(adata, t = 2):
+def DRIFT(adata, t = 2, k = 3):
     
-    construct_interaction(adata)
+    construct_interaction(adata, n_neighbors = k)
 
     G = nx.from_numpy_array(adata.obsm['graph_neigh'])
     L = nx.laplacian_matrix(G).toarray()
