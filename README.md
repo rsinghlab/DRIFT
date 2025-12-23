@@ -40,3 +40,9 @@ You will require additional libraries dependent on the foundation model you aim 
 To see how to run the code, please check our notebook tutorials.
 
 run_drift.ipynb for running DRIFT to obtain diffused inputs.
+
+run_annotation.ipynb for running annotation code.
+
+run_alignment.ipynb for running alignment code.
+
+For clustering, you need the embeddings from your foundation model. The embeddings can then be used in any clustering algorithm. For our work we used the mclust library in R.
