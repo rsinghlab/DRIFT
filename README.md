@@ -46,3 +46,9 @@ run_annotation.ipynb for running annotation code.
 run_alignment.ipynb for running alignment code.
 
 For clustering, you need the embeddings from your foundation model. The embeddings can then be used in any clustering algorithm. For our work we used the mclust library in R.
+
+## Data Availability (Dataset names reference the manuscript)
+
+Dataset MERMB and MERMBA are available at the https://cellxgene.cziscience.com website. Dataset MERHH is available at the https://cells.ucsc.edu website. Datasets 10xHPC and MERMPH are available on a site hosted by Yuan _et al_. at http://sdmbench.drai.cn/. Datasets 10xHSI and 10xHOC are available at Chen _et al_.'s tutorial website: https://guangyuwanglab2021.github.io/Loki/. Dataset StereoME is available at https://db.cngb.org/stomics/mosta/.
+
+
