@@ -32,7 +32,18 @@ pip install pycpd
 
 ### Foundation Model Requirements
 
-You will require additional libraries dependent on the foundation model you aim to use. Please refer to their code for any additional requirements necessary.
+You will need additional libraries depending on the foundation model you intend to use. Please refer to their code for any additional requirements necessary. The code repositories for the foundation models used in our study are listed below.
+
+**Geneformer** - <https://huggingface.co/ctheodoris/Geneformer>
+
+**scFoundation** - <https://github.com/biomap-research/scFoundation>
+
+**scGPT** - <https://github.com/bowang-lab/scgpt>
+
+**Loki** - <https://github.com/GuangyuWangLab2021/Loki>
+
+**Nicheformer** - <https://github.com/theislab/nicheformer>
+
 
 
 ### Run Code
