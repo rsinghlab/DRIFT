@@ -1,6 +1,6 @@
 # DRIFT - Diffusion-based Representation Integration for Foundation models in spatial Transcriptomics
 
-DRIFT is a scalable diffusion framework that denoises expression profiles and integrates the spatial topology of ST data into existing pretrained scRNA-seq and ST foundation models without additional retraining. Foundation models that do not explicitly model spatial information benefit from both denoising and spatial integration, while methods that do so leverage DRIFT's denoised output. DRIFT constructs a spatial adjacency graph among tissue spots and applies a heat-kernel diffusion process that propagates gene-expression signals across local neighborhoods while preserving tissue boundaries. This produces spatially coherent yet biologically meaningful representations that can be directly embedded into pretrained foundation models without retraining, making our approach much more computationally scalable and accessible. 
+DRIFT is a scalable diffusion framework that denoises expression profiles and integrates the spatial topology of ST data into existing pretrained scRNA-seq and ST foundation models without addition[...]
 
 ![STING Framework Overview](https://github.com/rsinghlab/DRIFT/blob/main/DRIFT_framework.jpg?raw=true)
 
@@ -32,7 +32,7 @@ pip install pycpd
 
 ### Foundation Model Requirements
 
-You will need additional libraries depending on the foundation model you intend to use. Please refer to their code for any additional requirements necessary. The code repositories for the foundation models used in our study are listed below.
+You will need additional libraries depending on the foundation model you intend to use. Please refer to their code for any additional requirements necessary. The code repositories for the foundati[...]
 
 **Geneformer** - <https://huggingface.co/ctheodoris/Geneformer>
 
@@ -60,6 +60,10 @@ For clustering, you need the embeddings from your foundation model. The embeddin
 
 ## Data Availability (Dataset names reference the manuscript)
 
-Dataset MERMB and MERMBA are available at the https://cellxgene.cziscience.com website. Dataset MERHH is available at the https://cells.ucsc.edu website. Datasets 10xHPC and MERMPH are available on a site hosted by Yuan _et al_. at http://sdmbench.drai.cn/. Datasets 10xHSI and 10xHOC are available at Chen _et al_.'s tutorial website: https://guangyuwanglab2021.github.io/Loki/. Dataset StereoME is available at https://db.cngb.org/stomics/mosta/.
+Dataset MERMB and MERMBA are available at the https://cellxgene.cziscience.com website. Dataset MERHH is available at the https://cells.ucsc.edu website. Datasets 10xHPC and MERMPH are available o[...]
 
+
+## Publication
+
+- Bioinformatics: https://academic.oup.com/bioinformatics/article/42/Supplement_1/btag259/8726325?login=false
 
