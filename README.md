@@ -20,8 +20,8 @@ Python Optimal Transport >= 0.9.1
 
 We suggest generating an environment (such as conda) to run the code. You can create the required conda environment directly by running the following lines sequentially in the shell.
 ```
-conda create --name <env_name> python==3.11
-conda activate <env_name>
+conda create --name DRIFT python==3.11
+conda activate DRIFT
 pip install scanpy
 pip install POT
 pip install "numpy<2"
